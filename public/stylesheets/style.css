@@ -6,3 +6,29 @@ body {
 a {
   color: #00B7FF;
 }
+
+button{
+  font-size: 2em;
+  background-color: #00B7FF;
+}
+.users{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 500px;
+  flex-wrap: wrap;
+  background-color: #aaa;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.user{
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(225, 226, 225);
+  border: 1px solid black;
+  border-radius: 10px;
+  flex: 1 0 200px;
+  max-width: 300px;
+  color: rgb(114, 103, 103);
+  font-size: 1.2em;
+}
